@@ -4,7 +4,7 @@ Weekly Code Challenge
 ## Author
 ~ Gad-Ongoro
 
-## <code>
+## code
 Used JavaScript to: 
 ~ Manipulate the DOM, e.g creating new li elements and quering the existing DOM elements
 ~ Add event listeners; click, hover, mouseenter, mouseleave
