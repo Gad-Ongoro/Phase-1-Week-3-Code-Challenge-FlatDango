@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    text-align: center;
+    background-color: rgb(49, 109, 179);
+    color: white;
+    padding: 0.5em;
+}
+
+#film-bar {
+    background: rgb(49, 109, 179);
+}
+
+div.main{
+    display: flex;
+}
+div.all-films{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width:20%;
+    color: navy;
+    background-color: rgba(100, 200, 255, 0.8);
+}
+ul#films{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    list-style-type: none;
+}
+
+.characterInfo{    
+    width: 75%;
+    margin: auto;
+    height: 600px;
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+button {
+  background-color: rgb(49, 109, 179);
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#film-image{
+  width: 300px;
+  height: 300px;
+}
